@@ -62,7 +62,7 @@ load <- function(pkg){
   sapply(pkg, require, character.only = TRUE)
 } 
 
-packages <- c("caret", "RSNNS", "class", "ks", "rpart", "rpart.plot","naivebayes", "MASS", "cvTools", "ROCR")
+packages <- c("caret", "RSNNS", "class", "ks", "naivebayes", "MASS", "cvTools")
 load(packages)
 
 ## Mix Remarks
@@ -138,7 +138,7 @@ a2$overall[1]
 
 ####################################################################################################
 
-## Classifier: Naïve Bayes
+## Classifier: NaÃ¯ve Bayes
 dados = as.data.frame(cbind(X_treino, Y_treino))
 nomes <- names(X)
 
