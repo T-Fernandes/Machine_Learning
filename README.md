@@ -2,7 +2,7 @@
 
 **Task: Email Spam Rating**
 
-Database: [spambase.data](https://archive.ics.uci.edu/ml/datasets/Spambase) from the UCI Machine Learning Repository
+Dataset: [spambase.data](https://archive.ics.uci.edu/ml/datasets/Spambase) from the UCI Machine Learning Repository
 
 Algorithms used:
 
