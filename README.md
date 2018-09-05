@@ -13,3 +13,4 @@ Algorithms used:
 
 **Conclusion**: Among the four classifiers, the RNA was the best one, with an accuracy of **0.925**, in contrast, the classifier that least adapted to the data was the NB with accuracy of **0.686**.
 
+-----------------------------------------------------------------------------------------------------
