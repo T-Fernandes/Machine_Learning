@@ -139,7 +139,7 @@ a2$overall[1]
 ####################################################################################################
 
 ## Classifier: Naïve Bayes
-dados = as.data.frame(cbind(X_treino, Y_treino))
+dados = as.data.frame(cbind(X_treino_num_norm, Y_treino))
 nomes <- names(X)
 
 ## Concatenate strings
@@ -149,7 +149,7 @@ f <- paste('Y_treino ~',f)
 # Convert to formula
 (f <- as.formula(f))
 modelo_NB = naive_bayes(f, data = dados)
-Y_estimado_NB = predict(modelo_NB, newdata = X_teste, type = 'class')
+Y_estimado_NB = predict(modelo_NB, newdata = X_teste_num_norm, type = 'class')
 
 ## Confusion Matrix
 (a3 = caret::confusionMatrix(Y_estimado_NB, Y_teste2))
@@ -160,8 +160,8 @@ a3$overall[1]
 ####################################################################################################
 
 ## Classifier: Discriminant Analysis
-modelo_LDA = lda(X_treino_num, Y_treino_num)
-Y_estimado_LDA = predict(modelo_LDA, newdata = X_teste, type = 'class')
+modelo_LDA = lda(X_treino_num_norm, Y_treino_num)
+Y_estimado_LDA = predict(modelo_LDA, newdata = X_teste_num_norm, type = 'class')
 
 ## Confusion Matrix
 (a4 = caret::confusionMatrix(Y_estimado_LDA$class, Y_teste2))
