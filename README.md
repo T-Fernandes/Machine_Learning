@@ -1,6 +1,8 @@
 # Machine Learning
 
-**Task: Email Spam Rating**
+**Task: Email Spam Rating** 
+
+![spam.jpg](https://raw.githubusercontent.com/T-Fernandes/Machine_Learning_With_R/master/spam.jpg)
 
 Dataset: [spambase.data](https://archive.ics.uci.edu/ml/datasets/Spambase) from the UCI Machine Learning Repository
 
