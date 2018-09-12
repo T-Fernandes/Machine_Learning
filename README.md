@@ -30,4 +30,4 @@ Algorithms used:
 - Support Vector Machines (SVM)
 - Logistic Regression (RL)
 
-**Conclusion**: Among the four classifiers, the RF and SVM were the best, with precision of **1,000**, in contrast, the classifier that had the least precision was the AD with the value of **0.989**.
+**Conclusion**: Among the four classifiers, the RF and SVM were the best, with precision of **1.000**, in contrast, the classifier that had the least precision was the AD with the value of **0.989**.
